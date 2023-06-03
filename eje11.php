@@ -29,5 +29,7 @@ $resultado2 = array_diff($sistema_solar_2, $sistema_solar_1);
 print_r($resultado1);
 echo "<br><br><br>";
 print_r($resultado2);
+echo "<br>";
+echo '<a href="index.html">volver</a>';
 
 ?>

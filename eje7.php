@@ -11,5 +11,6 @@ function busqueda_tipo($naves,$busqueda){
 $naves =["rojas","nave","space","sputnik","navecita","hola","sputnik","lis",];
 $busqueda = $_POST["nave-tipo"];
 busqueda_tipo($naves,strtolower($busqueda));
-
+echo "<br>";
+echo '<a href="index.html">volver</a>';
 ?>

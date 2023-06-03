@@ -11,5 +11,6 @@ function busqueda_planeta($planetas,$busqueda){
 $planetas =["sol","mercurio","venus","tierra","marte","jupiter","saturno","urano","neptuno","pluton"];
 $busqueda = $_POST["busqueda"];
 busqueda_planeta($planetas,strtolower($busqueda));
-
+echo "<br>";
+echo '<a href="index.html">volver</a>';
 ?>

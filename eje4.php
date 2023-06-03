@@ -8,4 +8,6 @@ $gravedad = ["mercurio"=> 0.38,"venus"=> 0.91,"tierra"=> 1.0,"marte"=> 0.38,"jup
 
 $real = array_map("gravedad_planeta", $gravedad);
 print_r($real);
+echo "<br>";
+echo '<a href="index.html">volver</a>';
 ?>
